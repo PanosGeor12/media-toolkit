@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#313244"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#74c7ec"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="256" height="256" rx="48" ry="48" fill="url(#bg)"/>
+  <!-- Play triangle -->
+  <polygon points="96,68 96,188 196,128" fill="url(#accent)" opacity="0.9"/>
+  <!-- Gear circle bottom-right -->
+  <circle cx="190" cy="190" r="32" fill="none" stroke="#a6e3a1" stroke-width="6" opacity="0.85"/>
+  <circle cx="190" cy="190" r="12" fill="#a6e3a1" opacity="0.85"/>
+  <!-- Gear teeth (simplified) -->
+  <g stroke="#a6e3a1" stroke-width="6" opacity="0.85" stroke-linecap="round">
+    <line x1="190" y1="155" x2="190" y2="163"/>
+    <line x1="190" y1="217" x2="190" y2="225"/>
+    <line x1="155" y1="190" x2="163" y2="190"/>
+    <line x1="217" y1="190" x2="225" y2="190"/>
+    <line x1="165" y1="165" x2="171" y2="171"/>
+    <line x1="209" y1="209" x2="215" y2="215"/>
+    <line x1="215" y1="165" x2="209" y2="171"/>
+    <line x1="171" y1="209" x2="165" y2="215"/>
+  </g>
+</svg>
